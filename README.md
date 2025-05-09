@@ -6,6 +6,7 @@ Can find airport codes for cities.
 Searches for flight prices using real-time data (via an API).
 
 ## Project Structure
+```
 
 flight_search_assistant/
 ├── flight_search_agent/
@@ -17,6 +18,7 @@ flight_search_assistant/
 │       └── validate_date_format.py
 ├── .env                   # SECRET API KEYS GO HERE!
 └── requirements.txt       # List of software needed
+```
 
 ## Setup
 1. **Clone the Repository**
