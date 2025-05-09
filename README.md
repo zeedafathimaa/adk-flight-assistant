@@ -1,9 +1,9 @@
 # A Conversational Flight Finder using ADK
 
 ## Overview
-A simple AI assistant that understands natural language requests for flights.
-Can find airport codes for cities.
-Searches for flight prices using real-time data (via an API).
+* A simple AI assistant that understands natural language requests for flights.
+* Can find airport codes for cities.
+* Searches for flight prices using real-time data (via an API).
 
 ## Project Structure
 ```
