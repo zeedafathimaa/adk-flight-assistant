@@ -1,11 +1,9 @@
-# flight_search_assistant/flight_search_agent/tools/get_flight_prices.py
 import os
 from dotenv import load_dotenv
 import json
 import urllib.parse
 import requests
 from typing import Optional
-# Adjust import path based on your final structure
 from flight_search_agent.utils.validate_date_format import validate_date_format
 from google.adk.tools.tool_context import ToolContext
 
@@ -87,13 +85,7 @@ def get_flight_prices(
         "outbound_date": outbound_date,
         "currency": "INR" # Adjust currency if needed
     }
-
-    # if return_date:
-    #     query_params["return_date"] = return_date
-    #     trip_type = "round-trip"
-    # else:
-    #     trip_type = "one-way"
-
+    
     if return_date:
         query_params["return_date"] = return_date
         trip_type = "round-trip"

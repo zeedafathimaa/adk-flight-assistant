@@ -1,7 +1,5 @@
-# flight_search_assistant/flight_search_agent/agent.py
 from google.adk.agents import Agent
 from dotenv import load_dotenv
-# Adjust import paths based on your final structure
 from .tools.get_flight_prices import get_flight_prices
 from .tools.get_airport_code import get_airport_code
 
@@ -10,7 +8,7 @@ load_dotenv()
 
 # The ADK looks for this specific variable name ('root_agent') to run the agent
 root_agent = Agent(
-    name="flight_search_agent", # Renamed for clarity
+    name="flight_search_agent", 
     model="gemini-1.5-flash-002", # Or your preferred model
     description="An agent that searches for flight prices between origins and destinations on specific dates.",
     instruction=(
@@ -47,5 +45,4 @@ root_agent = Agent(
         get_flight_prices,
         get_airport_code
         ]
-    # No sub_agents needed as this is the only agent
 )

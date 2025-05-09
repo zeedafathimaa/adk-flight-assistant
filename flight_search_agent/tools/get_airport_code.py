@@ -1,4 +1,3 @@
-# flight_search_assistant/flight_search_agent/tools/get_airport_code.py
 import os
 import json
 import urllib.parse
