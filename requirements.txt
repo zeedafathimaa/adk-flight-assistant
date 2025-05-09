@@ -1,4 +1,4 @@
-google-cloud-aiplatform>=1.40.0 # Check for the latest compatible version for ADK
-google-adk==0.1.0 # Or the specific version you are using
+google-cloud-aiplatform>=1.40.0 #
+google-adk==0.1.0 
 python-dotenv
 requests
